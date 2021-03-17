@@ -1,0 +1,64 @@
+.naslov {
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 50px;
+    text-shadow: black 5px 5px 5px;
+    color: #ececec;
+    font-weight: bold;
+    height: 120px;
+    width: 768px;
+  }
+  
+  #naslov-kalendara {
+    background: url(../slike/slika1.jpg) no-repeat;
+    position: relative;
+    top: 10px;
+    left: 25%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 65px;
+    padding-top: 50px;
+  }
+  
+  #glavni-sadrzaj {
+    height: 700px;
+    width: 800px;
+    background-color: white;
+    position: relative;
+    top: 25px;
+    left: 25%;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  
+  .dogadjaj-dan {
+    width: 100px;
+    height: 7px;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+    margin: -1px 0 0 0;
+    padding: 4px 5px 6px 0;
+    clear: left;
+    font-weight: bold;
+  }
+  .dogadjaj-dan-prvi
+  {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+  }
+  .dogadjaj-dan-el {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dogadjaj-silaz {
+    width: 625px;
+    background: #f9f9f9;
+    float: left;
+    margin: 0;
+    padding: 8px 12px 8px 8px;
+    border-top: 1px solid #ccc;
+    clear: right;
+    font-size: 20px;
+  }
+  

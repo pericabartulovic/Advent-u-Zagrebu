@@ -1,0 +1,132 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#777;
+}
+
+.nav
+{
+    text-align: left;
+    padding-top: 5px;
+    background-color: #fcc64e;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+ul
+{
+    margin-top: 5px;
+    list-style: none;
+}
+.nav li
+{
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+}
+a:hover
+{
+    color:darkmagenta;
+    text-shadow: white 5px 11px 10px,
+                 gold 15px 21px 20px;
+}
+a:link
+{
+    text-decoration: none;
+}
+a:visited
+{
+    color: darkmagenta;
+}
+
+
+.slika1, .slika2, .slika3
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*parallax*/
+    /*fixed ili scroll*/
+}
+
+.slika1
+{
+    background-image: url(../slike/slika1.jpg);
+    min-height: 100%;
+}
+.slika2
+{
+    background-image: url(../slike/slika2.jpg);
+    min-height: 400px;
+}
+.slika3
+{
+    background-image: url(../slike/slika3.jpg);
+    min-height: 400px;
+}
+
+.dio
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.dio-light
+{
+    background-color:  #f4f4f4;
+    color : #777;
+}
+.dio-dark
+{
+    background-color:#282e34;
+    color: #ddd;
+}
+
+.tekst
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    text-transform: uppercase;
+    top: 50%;
+}
+
+.tekst .border
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.tekst .border.trans
+{
+    background-color: transparent;
+}
+#teme-i-novosti
+{
+    color: blueviolet;
+    font-weight: bold;
+    text-shadow: yellow 5px 11px 10px;
+}
+#posljednjiSkok
+{
+    text-transform: lowercase;
+    font-size: smaller;
+    text-indent: 2em;
+}
+#link-kalendar
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
